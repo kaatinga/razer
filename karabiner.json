@@ -275,9 +275,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f",
+                                        "key_code": "slash",
                                         "modifiers": [
-                                            "left_shift",
                                             "left_command"
                                         ]
                                     }
