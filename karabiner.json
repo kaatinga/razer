@@ -183,7 +183,7 @@
                         ]
                     },
                     {
-                        "description": "Razer 06 to Left_Shift-Left_Option-f",
+                        "description": "Razer 06 to Left_Control-Spacebar",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -206,10 +206,9 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f",
+                                        "key_code": "spacebar",
                                         "modifiers": [
-                                            "left_shift",
-                                            "left_option"
+                                            "left_control"
                                         ]
                                     }
                                 ],
