@@ -683,11 +683,11 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "space"
+                                    "key_code": "spacebar"
                                 },
                                 "to": [
                                     {
-                                        "key_code": "space",
+                                        "key_code": "spacebar",
                                         "modifiers": [
                                             "left_shift",
                                             "left_command"
@@ -829,7 +829,7 @@
                         ]
                     },
                     {
-                        "description": "Razer Trigger to option+enter",
+                        "description": "Razer left-option to left_option+enter",
                         "manipulators": [
                             {
                                 "conditions": [
