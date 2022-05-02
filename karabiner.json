@@ -148,7 +148,7 @@
                         ]
                     },
                     {
-                        "description": "Razer 05 to Left_Shift-Left_Option-e",
+                        "description": "Razer 05 to move code to a func",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -171,9 +171,9 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "e",
+                                        "key_code": "m",
                                         "modifiers": [
-                                            "left_shift",
+                                            "left_command",
                                             "left_option"
                                         ]
                                     }
