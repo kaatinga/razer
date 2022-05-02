@@ -852,7 +852,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "enter",
+                                        "key_code": "return_or_enter",
                                         "modifiers": [
                                             "left_option"
                                         ]
