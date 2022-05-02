@@ -664,6 +664,41 @@
                         ]
                     },
                     {
+                        "description": "Razer 20 to shift+control+space",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "identifiers": [
+                                            {
+                                                "product_id": 580,
+                                                "vendor_id": 5426
+                                            },
+                                            {
+                                                "product_id": 555,
+                                                "vendor_id": 5426
+                                            }
+                                        ],
+                                        "type": "device_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "space"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "space",
+                                        "modifiers": [
+                                            "left_shift",
+                                            "left_command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Razer - left arrow",
                         "manipulators": [
                             {
@@ -794,7 +829,7 @@
                         ]
                     },
                     {
-                        "description": "Razer Trigger to tab",
+                        "description": "Razer Trigger to option+enter",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -817,7 +852,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "tab"
+                                        "key_code": "enter",
+                                        "modifiers": [
+                                            "left_control"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
