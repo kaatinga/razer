@@ -78,7 +78,7 @@
                         ]
                     },
                     {
-                        "description": "Razer 03 to Left_Shift-Left_Option-c",
+                        "description": "Razer 03 to Refactor",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -101,10 +101,9 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "c",
+                                        "key_code": "f6",
                                         "modifiers": [
-                                            "left_shift",
-                                            "left_option"
+                                            "left_shift"
                                         ]
                                     }
                                 ],
