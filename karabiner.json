@@ -662,7 +662,7 @@
                         ]
                     },
                     {
-                        "description": "Razer 20 to shift+control+space",
+                        "description": "Razer 20 to enter",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -685,11 +685,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "spacebar",
-                                        "modifiers": [
-                                            "left_shift",
-                                            "left_control"
-                                        ]
+                                        "key_code": "return_or_enter"
                                     }
                                 ],
                                 "type": "basic"
