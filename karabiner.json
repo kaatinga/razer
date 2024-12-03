@@ -490,7 +490,7 @@
                         ]
                     },
                     {
-                        "description": "Razer 15 to find file",
+                        "description": "Razer 15 to open terminal",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -513,9 +513,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f12",
+                                        "key_code": "w",
                                         "modifiers": [
-                                            "left_option"
+                                            "left_option",
+                                            "left_command"
                                         ]
                                     }
                                 ],
